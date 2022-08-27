@@ -1,0 +1,34 @@
+:root{
+--header-footer-main-color: rgb(13, 22, 31);
+--secondary-font-color:rgb(169, 169, 169);
+--accent-background-color: rgb(246, 251, 252);
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+    
+
+footer{
+padding: 30px auto ;
+}
+header{
+padding: 30px auto ;
+
+}
+nav, footer, header{
+    background-color: var(--header-footer-main-color);
+}
+.nav-styles{
+    color: var(--secondary-font-color);
+        background-color: var(--header-footer-main-color);
+
+}
+.nav-logo{
+    position: absolute;
+width: 63px;
+height: 55px;
+left: 210px;
+top: 39px;
+}
