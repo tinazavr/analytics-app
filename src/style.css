@@ -1,8 +1,9 @@
 :root{
---header-footer-main-color: rgb(13, 22, 31);
---secondary-font-color:rgb(169, 169, 169);
---accent-background-color: rgb(246, 251, 252);
+/* --header-footer-main-color: rgb(13, 22, 31); */
+/* --accent-background-color: rgb(246, 251, 252); */
 
+--primary-font-color: rgb(169, 169, 169)
+--headind-font-color: rgb(0, 0, 0);
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -21,7 +22,7 @@ nav, footer, header{
     background-color: var(--header-footer-main-color);
 }
 .nav-styles{
-    color: var(--secondary-font-color);
+    color: var(--primary-font-color);
         background-color: var(--header-footer-main-color);
 
 }
